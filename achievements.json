@@ -1,0 +1,21 @@
+{
+  "unlocked": [
+    "chain10",
+    "chain5",
+    "pyro",
+    "sharpshooter"
+  ],
+  "unlocked_at": {
+    "chain5": 1795680645,
+    "sharpshooter": 1795680667,
+    "chain10": 1795681751,
+    "pyro": 1795681775
+  },
+  "counters": {
+    "kills": 36,
+    "best_arrow_streak": 10,
+    "fire_kills": 25
+  },
+  "total_kills": 36,
+  "seen": []
+}

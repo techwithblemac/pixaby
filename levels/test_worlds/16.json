@@ -1,0 +1,96 @@
+[
+  {
+    "type": "entity settings",
+    "Torch": {
+      "acquire_range": 1000,
+      "acquire_down": 300,
+      "acquire_up": 300,
+      "attack_up": 50,
+      "attack_down": 50,
+      "attack_range": 50,
+      "attack_power": 4
+    },
+    "Pawn": {
+      "acquire_range": 1000,
+      "acquire_down": 300,
+      "acquire_up": 300,
+      "attack_up": 50,
+      "attack_down": 50,
+      "attack_range": 40,
+      "attack_power": 5
+    },
+    "Warrior": {
+      "acquire_range": 1000,
+      "acquire_down": 300,
+      "acquire_up": 300,
+      "attack_up": 50,
+      "attack_down": 50,
+      "attack_range": 50,
+      "attack_power": 6
+    },
+    "TNT": {
+      "acquire_range": 1000,
+      "acquire_down": 300,
+      "acquire_up": 300,
+      "attack_up": 300,
+      "attack_down": 300,
+      "attack_range": 600,
+      "attack_power": 8
+    },
+    "Archer": {
+      "acquire_range": 1000,
+      "acquire_down": 300,
+      "acquire_up": 300,
+      "attack_up": 300,
+      "attack_down": 300,
+      "attack_range": 600,
+      "attack_power": 7
+    }
+  },
+  {
+    "x": 0,
+    "y": -64,
+    "points": [
+      [
+        0,
+        -128
+      ],
+      [
+        0,
+        -64
+      ]
+    ],
+    "width": 64,
+    "height": 64,
+    "type": "start"
+  },
+  {
+    "x": 0,
+    "y": -64,
+    "width": 64,
+    "height": 64,
+    "interval": 5,
+    "limit": 5,
+    "type": "spawn_point",
+    "entities": [
+      [
+        "Pawn",
+        "Red"
+      ]
+    ]
+  },
+  {
+    "x": 0,
+    "y": 0,
+    "width": 64,
+    "height": 64,
+    "type": "block",
+    "name": "stone",
+    "size": "big"
+  },
+  {
+    "type": "preview coordinates",
+    "x": 71,
+    "y": -49
+  }
+]

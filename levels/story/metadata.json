@@ -1,0 +1,147 @@
+{
+  "1": {
+    "title": "The Sunken Gate",
+    "author": "BLEMAC",
+    "created": "2024-01-14",
+    "description": "The entrance to the Abyss. Flooded stone corridors and mossy grass ledges wind past torch-bearing sentries and wandering pawns. Built as a gentle first descent to teach movement, combat and the water hazards you'll meet again and again below.",
+    "difficulty": 1,
+    "tier": "free",
+    "tags": [
+      "Dungeon",
+      "Water",
+      "Tutorial",
+      "Stone"
+    ],
+    "recommended_players": "1-4"
+  },
+  "2": {
+    "title": "Emerald Hollow",
+    "author": "BLEMAC",
+    "created": "2024-02-03",
+    "description": "A brighter, greener stretch of the Abyss where mossy hollows hide buried treasure. Archers hold the high ledges while warriors patrol the flooded lower paths, rewarding players who scout before they charge in.",
+    "difficulty": 2,
+    "tier": "free",
+    "tags": [
+      "Overworld",
+      "Treasure",
+      "Water"
+    ],
+    "recommended_players": "1-4"
+  },
+  "3": {
+    "title": "Ashfall Ruins",
+    "author": "BLEMAC",
+    "created": "2024-02-21",
+    "description": "Crumbled stone ruins scattered across sunken grass terraces. A balanced mix of every enemy type keeps fights unpredictable, and scattered treasure chests reward players willing to explore the flooded side-paths.",
+    "difficulty": 2,
+    "tier": "free",
+    "tags": [
+      "Ruins",
+      "Treasure",
+      "Balanced"
+    ],
+    "recommended_players": "1-4"
+  },
+  "4": {
+    "title": "The Flooded Depths",
+    "author": "BLEMAC",
+    "created": "2024-03-10",
+    "description": "The Abyss's deepest waterlogged chamber - brick-and-stone architecture half-submerged, with TNT grunts and archers guarding the few dry footholds. Verticality and swimming both matter here.",
+    "difficulty": 3,
+    "tier": "free",
+    "tags": [
+      "Water",
+      "Vertical",
+      "Brick"
+    ],
+    "recommended_players": "1-4"
+  },
+  "5": {
+    "title": "Crate Yard Abyss",
+    "author": "BLEMAC",
+    "created": "2024-03-29",
+    "description": "An old supply yard swallowed by the dungeon, stacked with pushable crates and moving platforms. Torch-bearers and warriors use the crate cover to ambush careless players crossing the open yard.",
+    "difficulty": 3,
+    "tier": "free",
+    "tags": [
+      "Platforming",
+      "Crates",
+      "Moving Platforms"
+    ],
+    "recommended_players": "1-4"
+  },
+  "6": {
+    "title": "Sky Citadel",
+    "author": "BLEMAC",
+    "created": "2024-04-18",
+    "description": "A dry, elevated fortress built from brick and grass terraces high above the flooded lower Abyss. No water here - just tight platforming and archers with clean sightlines across every ledge.",
+    "difficulty": 4,
+    "tier": "pro",
+    "tags": [
+      "Fortress",
+      "Platforming",
+      "PRO+"
+    ],
+    "recommended_players": "1-4"
+  },
+  "7": {
+    "title": "Mudflat Warcamp",
+    "author": "BLEMAC",
+    "created": "2024-05-06",
+    "description": "An occupied warcamp sunk into stone and mud terrain. Archers dominate this level in numbers, raining arrows across the mudflats - expect to spend more time behind cover than in the open.",
+    "difficulty": 4,
+    "tier": "pro",
+    "tags": [
+      "Warcamp",
+      "Archers",
+      "Mud",
+      "PRO+"
+    ],
+    "recommended_players": "1-4"
+  },
+  "8": {
+    "title": "Frozen Inferno",
+    "author": "BLEMAC",
+    "created": "2024-05-24",
+    "description": "Ice terrain meets a small army of torch-wielding enemies - the Abyss's cruellest contradiction. Slippery footing, deep water pockets and more Torch enemies than any other level make this a real test of control.",
+    "difficulty": 5,
+    "tier": "pro",
+    "tags": [
+      "Ice",
+      "Water",
+      "Torch Enemies",
+      "PRO+"
+    ],
+    "recommended_players": "1-4"
+  },
+  "9": {
+    "title": "The Verdant Maze",
+    "author": "BLEMAC",
+    "created": "2024-06-11",
+    "description": "A sprawling, densely-layered grass labyrinth with no water to slow enemies down - just a dry, twisting maze packed with moving platforms, buried treasure, and every enemy type working together.",
+    "difficulty": 4,
+    "tier": "pro",
+    "tags": [
+      "Maze",
+      "Treasure",
+      "Dense",
+      "PRO+"
+    ],
+    "recommended_players": "1-4"
+  },
+  "10": {
+    "title": "Last Bastion",
+    "author": "BLEMAC",
+    "created": "2024-06-29",
+    "description": "The final descent. A compact brick fortress that packs every enemy type, moving hazards and hard-won treasure into the tightest arena in the game. Built to be replayed - there is no easy way through.",
+    "difficulty": 5,
+    "tier": "pro",
+    "tags": [
+      "Finale",
+      "Brick",
+      "Hardcore",
+      "PRO+"
+    ],
+    "recommended_players": "1-4"
+  }
+}

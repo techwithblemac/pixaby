@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Built / generated (the GitHub workflow builds these)
+*.pyd
+*.so
+game/scripts/_fast.c
+game/scripts/physics.c
+build/
+dist/
+*.spec
+
+# Profiler output
+profile.prof
+profile_report.txt
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.log
+
+# Secrets - never commit these
+.env
+*.pem

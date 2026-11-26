@@ -1,0 +1,44 @@
+# Packages the game as a Windows folder (pixaby.exe) with PyInstaller.
+#
+# Run it: GitHub -> Actions -> "Build Windows game" -> Run workflow (or push a tag like v4.0.1).
+# Download the zip from the run's "Artifacts" box. The compiled _fast is included.
+#
+# NOTE: not tested yet. If the exe can't find assets or levels, tell me the error and I'll fix
+# the --add-data lines below.
+name: Build Windows game
+
+on:
+  workflow_dispatch:
+  push:
+    tags: ["v*"]
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install
+        run: python -m pip install --upgrade pip -r requirements.txt cython setuptools pyinstaller
+
+      - name: Compile _fast (optional speed-up)
+        working-directory: game
+        run: python build_fast.py
+
+      - name: Package
+        shell: bash
+        run: |
+          python -m PyInstaller --noconfirm --onedir --windowed \
+            --icon=assets/icons/icon.ico --name pixaby \
+            --add-data "assets;assets" --add-data "levels;levels" \
+            --add-data "VERSION;." pixaby.py
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: pixaby-windows
+          path: dist/pixaby
+          if-no-files-found: error

@@ -1,0 +1,1 @@
+[{"x": 704, "y": 128, "width": 42, "height": 58, "type": "enemy", "name": "Archer", "color": "Blue", "posted": false, "patroller": false, "patrol_range_x": 1000, "patrol_range_y": 1000, "mods": {"trap": true, "trap_mode": "ward", "trap_max": 4, "fx": {"arrow_bonus": 3, "homing": 1}, "items": {"quiver": 2, "homing_arrows": 1, "trap_mastery": 3}}, "facing": "left"}]
